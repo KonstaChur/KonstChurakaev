@@ -1,8 +1,8 @@
 name: homework
 on: workflow_dispatch
 jobs:
-  homework_1:
+  print:
     runs-on: windows-2022
     steps:
-      -name: homework_1
-      run: 
+      -name: Print to console
+      run: echo Hello world
